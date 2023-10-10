@@ -23,7 +23,7 @@ export const Project = () => {
         >
           ALL PROJECTS
         </a>
-        <div className=" flex flex-row space-x-5 p-4">
+        <div className=" flex md:flex-row flex-col space-x-5 p-4 overflow-hidden">
           <Card2 />
           <Card2 />
           <Card2 />

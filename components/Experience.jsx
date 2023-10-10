@@ -20,7 +20,7 @@ export const Experience = () => {
             our experience
           </p>
           <h1 className=" text-gray-900 font-bold text-4xl font-inter">
-            Expert eith Experience
+            Expert with Experience
           </h1>
           <p className=" text-iwLightBlue font-inter text-sm max-w-4xl">
             Many desktop publishing packages and web page editors now use Lorem

@@ -3,7 +3,7 @@ import React from "react";
 
 export const Card1 = () => {
   return (
-    <div className="relative rounded-md h-[400px] w-[350px] max-w-xl p-3 border-2 mx-3">
+    <div className="relative rounded-md md:h-[400px] h-[200px] w-[120px] md:w-[350px] max-w-xl p-3 border-2 md:mx-3 mx-1">
       <Image
         src="/images/photo.jpg"
         alt="services 1"

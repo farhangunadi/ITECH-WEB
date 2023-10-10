@@ -5,12 +5,13 @@ import {
   faSitemap,
 } from "@fortawesome/free-solid-svg-icons";
 import Image from "next/image";
+import { ButtonComp } from "./Button";
 
 export const About = () => {
   return (
-    <section id="about" className="max-w-[1280px] mx-auto py-8 my-10">
-      <div className=" grid grid-cols-3 justify-center items-start mx-10 gap-x-28">
-        <div className=" relative w-[400px] h-full">
+    <section id="about" className="">
+      <div className=" flex flex-col md:grid grid-cols-3 justify-center items-start mx-10 gap-x-28">
+        <div className=" md:relative hidden w-[400px] h-full">
           <Image
             src="/images/photo.jpg"
             alt="about photo"
@@ -67,12 +68,7 @@ export const About = () => {
             humour, or randomised words which don't look even slightly
             believable.
           </p>
-          <a
-            href="/"
-            className=" cursor-pointer bg-iwLightBlue border-2 text-iwWhite py-4 px-8 rounded-md w-fit hover:bg-iwWhite hover:border-2 hover:border-iwLightBlue hover:text-iwLightBlue"
-          >
-            Read More
-          </a>
+          <ButtonComp title="Read More" />
         </div>
       </div>
     </section>
